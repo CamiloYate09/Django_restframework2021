@@ -5,3 +5,6 @@ djangorestframework==3.9.4
 psycopg2>=2.7,<3.0
 django-ckeditor==5.9.0
 Pillow==7.1.2
+asgiref==3.3.1
+djangorestframework-simplejwt===4.6.0
+sqlparse===0.4.1
