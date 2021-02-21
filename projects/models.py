@@ -8,7 +8,8 @@ from ckeditor.fields import RichTextField
 class Project(models.Model):
     """Project model."""
 
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    # user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='projects')
     date = models.DateTimeField()
     title = models.CharField(max_length=255)
     url = models.URLField(null=True)
