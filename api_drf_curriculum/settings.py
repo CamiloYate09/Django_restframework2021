@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'extras',
     'experiences',
     'education',
+    'rest_framework.authtoken'
 ]
 
 MIDDLEWARE = [
